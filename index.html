@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>Animated Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="animate.min.css">
+</head>
+<body>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active slide-one">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+        <h1 class="animated fadeInLeft delay-1s">Build a Mobile App</h1>
+        <p class="animated lightSpeedIn delay-2s">
+        <b>1.</b><b> Sketch your app idea.</b>
+        <br><b>2.</b><b> Do some market research.</b><br>
+        <b>3.</b><b> Create mockups of your app.</b><br>
+        <b>4.</b><b> Make your app’s graphic design.</b><br>
+        <b>5.</b><b> Build your app landing page.</b><br>
+        <b>6.</b><b> Make the app with Xcode and Swift.</b><br>
+        <b>7.</b><b> Launch the app in the App Store.</b><br>
+        <b>8.</b><b> Market your app to reach the right people.</b><br>
+        <b>9.</b><b> Improve your app with user feedback.</b><br></p>
+        <button type="button" class="animated jackInTheBox delay-5s">Read More</button>
+        </div>
+        <div class="col-md-6">
+        <div class="img-box">
+            <img src="images/pic-1.png" class="pic-one animated zoomIn delay-1s">
+            <img src="images/pic-2.png" class="pic-two animated fadeInLeft delay-4s">
+            <img src="images/pic-3.png" class="pic-three animated fadeInUp delay-3s">
+            <img src="images/pic-4.png" class="pic-four animated fadeInDown delay-3s">
+            <img src="images/pic-5.png" class="pic-five animated fadeInRight delay-4s">
+            <img src="images/pic-6.png" class="pic-six animated jackInTheBox delay-5s">
+        </div>
+        </div> 
+        </div>
+        </div>
+      </div>
+    <div class="carousel-item slide-two">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+        <h1 class="animated fadeInLeft delay-1s">Learn Graphics Design</h1>
+        <p class="animated lightSpeedIn delay-2s">
+        <b>1.</b><b> Review the Design Brief. Read through the design brief several times.</b>
+        <br><b>2.</b><b> Research and Discovery. Research will make you a better designer, saving you a lot of thinking time.</b><br>
+        <b>3.</b><b> Brainstorm and Sketch Concepts.</b><br>
+        <b>4.</b><b>  Build On Your Concepts.</b><br>
+        <b>5.</b><b>  Evolve and Iterate Your Concept.</b><br>
+        <button type="button" class="animated jackInTheBox delay-5s">Read More</button>
+        </div>
+        <div class="col-md-6">
+        <div class="img-box">
+            <img src="images/img-1.png" class="img-one animated zoomIn delay-1s">
+            <img src="images/img-2.png" class="img-two animated fadeInLeft delay-4s">
+            <img src="images/img-3.png" class="img-three animated zoomIn delay-3s">
+            <img src="images/img-4.png" class="img-four animated fadeInDown delay-3s">
+            <img src="images/img-5.png" class="img-five animated fadeInRight delay-4s">
+            
+        </div>
+        </div> 
+        </div>
+        </div>
+    </div>
+   
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<script>
+    $('.carousel').carousel({
+    interval:7000
+    })
+</script>
+</body>
+</html>
